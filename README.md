@@ -9,8 +9,12 @@ en todos los navegadores que usan el `Chromium` web engine.
 
 Segunda solucion y aun que no lo parezca o suene es escribir tu propia aplicacion/extension
 "Add Blocker", leyendo la nueva estandarizacion de la `Web3` en el sitio de `Google Developers`
-es muy sencillo y hasta el dia de puede bloquear hasta un 80% - 90% de los molestos anuncios
-en paginas publicas, abajo las imagenes cuando esta encendido y cuando no lo esta.
+es muy sencillo y hasta el dia de hoy se pueden bloquear hasta un 70 - 80 % de los molestos anuncios
+en paginas publicas, esto depende totalmente de la lista de reglas que tengas.
+
+Y diras tu que eso es lo mismo que usar las extensiones de toda la vida, pero la verdad es que no. Mientras este pryecto solo aborda el tema desde esa perspectiva, ahora la extensibilidad de tu proyecto como "Ad Blocker" puede bloquear elementos de una url definida. Por ejemplo si ya conces lo que son tecnicas como `XSS` y conoces las convencionalidades con las cuales se implementa puede declararlo en tu tu archivo de reglas y a estos elementos no se les permite su ejecucion o funcionalidad. No digo que sea la cura del cancer pero si es algo muy diferente. 
+
+*Abajo las imagenes cuando esta encendido y cuando no lo esta.*
 
 ## Alcance de este proyecto
 
