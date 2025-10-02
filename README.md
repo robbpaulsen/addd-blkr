@@ -21,49 +21,48 @@ Segun la documentacion de en "Google Developers" haciendo uso de la nueva funcio
 
 ```json
 {
-    "manifest_version": 3,
-    "name": "Simple Ad Blocker",
-    "version": "1.0.0",
-    "permissions": [
-        "declarativeNetRequest"
-    ],
-    "declarative_net_request": {
-        "rule_resources": [
-            {
-                "id": "ruleset_1",
-                "enabled": true,
-                "path": "rules.json"
-            }
-        ]
-    }
+    "manifest_version": 3,
+    "name": "Simple Ad Blocker",
+    "version": "1.0.0",
+    "permissions": [
+        "declarativeNetRequest"
+    ],
+    "declarative_net_request": {
+        "rule_resources": [
+            {
+                "id": "ruleset_1",
+                "enabled": true,
+                "path": "rules.json"
+            }
+        ]
+    }
 }
-
 ```
 
 ### Y aqui el snippet del rules dot `json` (rules.json)
 
   ```json
 [
-    {
-        "id": 1,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "*://*doubleclick.net/*"
-        }
-    },
-    {
-        "id": 2,
-        "priority": 1,
-        "action": {
-            "type": "block"
-        },
-        "condition": {
-            "urlFilter": "*://*googleadservices.com/*"
-        }
-    }
+    {
+        "id": 1,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*doubleclick.net/*"
+        }
+    },
+    {
+        "id": 2,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*googleadservices.com/*"
+        }
+    }
 ]
 ```
 
