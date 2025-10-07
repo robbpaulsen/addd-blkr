@@ -16,7 +16,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*://*googleadservices.com/*"
+            "urlFilter": "*://*ads.us.e-planning.net/*"
         }
     },
     {
@@ -29,7 +29,7 @@
             "urlFilter": "*://*.youtube.com/*ad*"
         }
     },
-   {
+    {
         "id": 4,
         "priority": 1,
         "action": {
@@ -116,7 +116,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.adex-rtb.com/*"
+            "urlFilter": "*://*.adex-rtb.com/*"
         }
     },
     {
@@ -126,7 +126,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.adform.com/*"
+            "urlFilter": "*://*.adform.com/*"
         }
     },
     {
@@ -136,7 +136,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.adhaven.com/*"
+            "urlFilter": "*://*.adhaven.com/*"
         }
     },
     {
@@ -146,7 +146,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.adition.com/*"
+            "urlFilter": "*://*.adition.com/*"
         }
     },
     {
@@ -156,7 +156,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.adkernel.com/*"
+            "urlFilter": "*://*.adkernel.com/*"
         }
     },
     {
@@ -166,7 +166,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.admanmedia.com/*"
+            "urlFilter": "*://*.admanmedia.com/*"
         }
     },
     {
@@ -176,7 +176,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.admixer.net/*"
+            "urlFilter": "*://*.admixer.net/*"
         }
     },
     {
@@ -186,7 +186,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.adnxs.com/*"
+            "urlFilter": "*://*.adnxs.com/*"
         }
     },
     {
@@ -196,7 +196,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.adotmob.com/*"
+            "urlFilter": "*://*.adotmob.com/*"
         }
     },
     {
@@ -206,7 +206,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.admatic.de/*"
+            "urlFilter": "*://*.admatic.de/*"
         }
     },
     {
@@ -216,7 +216,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.adroll./*"
+            "urlFilter": "*://*.adroll./*"
         }
     },
     {
@@ -226,7 +226,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.adormob.com/*"
+            "urlFilter": "*://*.adormob.com/*"
         }
     },
     {
@@ -236,7 +236,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.adsrvr.org/*"
+            "urlFilter": "*://*.adsrvr.org/*"
         }
     },
     {
@@ -246,7 +246,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.adtelligent.com/*"
+            "urlFilter": "*://*.adtelligent.com/*"
         }
     },
     {
@@ -256,7 +256,7 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.adthrive.com/*"
+            "urlFilter": "*://*.adthrive.com/*"
         }
     },
     {
@@ -266,7 +266,147 @@
             "type": "block"
         },
         "condition": {
-            "urlFilter": "*.//*.advolve.com/*"
+            "urlFilter": "*://*.advolve.com/*"
+        }
+    },
+    {
+        "id": 28,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*ad-cdn.technoratimedia.com/*"
+        }
+    },
+    {
+        "id": 29,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*.ad-cdn.*.*/*"
+        }
+    },
+    {
+        "id": 30,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*a26988130118.cdn.optimizely.com/*"
+        }
+    },
+    {
+        "id": 31,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*.a26988130118.*.*.*/*"
+        }
+    },
+    {
+        "id": 32,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://ads.pubmatic.com/*"
+        }
+    },
+    {
+        "id": 33,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*.ads.pubmatic.*/*"
+        }
+    },
+    {
+        "id": 34,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*ads.us.e-planning.*/*"
+        }
+    },
+    {
+        "id": 35,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*cdn-gl.imrworldwide.com"
+        }
+    },
+    {
+        "id": 36,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*cdn-gl.imrworldwide.com/*"
+        }
+    },
+    {
+        "id": 37,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*.cdn-gl.imrworldwide.*/*"
+        }
+    },
+    {
+        "id": 38,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*secure-us.imrworldwide.com/*"
+        }
+    },
+    {
+        "id": 39,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://*secure-us.imrworldwide.*/*"
+        }
+    },
+    {
+        "id": 40,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://cmp.osano.com/*"
+        }
+    },
+    {
+        "id": 41,
+        "priority": 1,
+        "action": {
+            "type": "block"
+        },
+        "condition": {
+            "urlFilter": "*://cmp.osano.*/*"
         }
     }
 ]
