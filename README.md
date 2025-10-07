@@ -41,7 +41,7 @@ Segun la documentacion de en "Google Developers" haciendo uso de la nueva funcio
 
 ### Y aqui el snippet del rules dot `json` (rules.json)
 
-  ```json
+```json
 [
     {
         "id": 1,
@@ -82,7 +82,7 @@ En el snippet solo se incluyen 2 ejemplos de URL's pero en el archivo que sera u
 
 > [!warning]
 > EN MIS PRUEBAS CON LAS PAGINAS QUE VISITO REGULARMENTE
-> A YOUTUBE NO LE AGRADA NADA QUE USES ALGUN TIPO DE
+> A YOUTUBE NO LE AGRADA **ABSOLUTAMENTE NADA** QUE USES ALGUN TIPO DE
 > ADBLOCKER. ES EL UNICO SITIO EN DONDE E EXPERIMENTADO
 > PROBLEMAS. Y POR PROBLEMAS ME REFIERO A Y NO LIMITADO:
 > - 5 ANUNCIOS SEGUIDOS
